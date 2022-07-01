@@ -1,0 +1,7 @@
+ name: Applying bodsch.node_exporter role
+  hosts: servers
+  user: nikitkov
+  become: true
+  become_method: sudo
+  roles:
+    - bodsch.node_exporter
